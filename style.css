@@ -1,0 +1,97 @@
+body{
+  
+  background: black;
+  
+  
+  
+}
+
+
+section {
+
+background:  #e6ffff;
+
+text-align: center;
+
+font-size: large;
+
+
+
+
+}
+
+/*КНОПКИ*/
+
+#but1  {
+margin: 20%;
+font-size: large;
+
+
+}
+
+#dalee  {
+    margin: 20%;
+    font-size: large;
+    
+}
+
+#obRes {
+
+    font-size: large;
+
+}
+
+#redCoda {
+
+    font-size: large;
+
+}
+
+#roboty {
+  
+  font-size: large;
+  
+}
+
+#uznat {
+  margin: 5%;
+  font-size: large;
+  
+}
+
+/*   */
+
+
+header{
+  color: white;
+  text-align-last: center;
+  
+}
+
+#timer1{
+  
+  font-size: 30px;
+  
+}
+
+footer{
+  color: orange;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+#div1 {
+  
+  color:  #008080;
+  padding: 5% 0 0 0;
+}
+
+/*p{
+  padding: 5% 0 0 0;
+  
+  
+}*/
+
+
+
