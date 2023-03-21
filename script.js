@@ -37,7 +37,7 @@ but1.onclick = function () {
 
     let div1 = document.getElementById("div1");
 
-    div1.innerHTML =  `<div><p>Привет уважаемый друг! Вы на сайте Берлина Андрея! Если хотите продолжить, то нажмите: "ДАЛЕЕ..."</p>
+    div1.innerHTML =  `<div><p>Привет уважаемый друг! Вы на сайте проекта Берлина Андрея! Если хотите продолжить, то нажмите: "ДАЛЕЕ..."</p>
 
    <button  id = "dalee">ДАЛЕЕ...</button>
    <!--button  id = "net">НЕТ</button--> 
@@ -46,7 +46,7 @@ but1.onclick = function () {
 
 window.speechSynthesis.cancel();
 
-const text = `Привет уважаемый друг! Вы на сайте Бйэрлина Андрея! Если хотите продолжить, то нажмите: "ДАЛЕЕ...`; //textEl.value;
+const text = `Привет уважаемый друг! Вы на сайте проекта Бйэрлина Андрея! Если хотите продолжить, то нажмите: "ДАЛЕЕ...`; //textEl.value;
 
   const utterance = new SpeechSynthesisUtterance(text);
 
@@ -182,11 +182,11 @@ const text = `Есть много бесплатных редакторов ко
 
  `<div class = "radio_playlist1">
   
- <p>Здесь будут примеры программ...</p>
+ <p>Этот интерактивный сайт - один из многих примеров идеи Берлина А. Будут ещё...</p>
 
   </div>`  
   
-  const text = `Здесь будут примеры программ... `; //textEl.value;
+  const text = `Этот интерактивный сайт - один из многих примеров идей Берлина А. Будут ещё.`; //textEl.value;
     
       const utterance = new SpeechSynthesisUtterance(text);
     
